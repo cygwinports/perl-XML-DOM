@@ -1,0 +1,6 @@
+category: Perl
+requires: perl perl-XML-RegExp perl-libxml-perl
+sdesc: "Perl XML-Parser DOM extension"
+ldesc: "This is a Perl extension to XML::Parser. It adds a new 'Style' 
+to XML::Parser, called 'Dom', that allows XML::Parser to build an Object 
+Oriented datastructure with a DOM Level 1 compliant interface."

@@ -1,0 +1,106 @@
+perl-XML-DOM
+------------------------------------------
+This is a Perl extension to XML::Parser. It adds a new 'Style' to 
+XML::Parser, called 'Dom', that allows XML::Parser to build an Object 
+Oriented datastructure with a DOM Level 1 compliant interface.
+
+Runtime requirements:
+  perl-5.10.0-3
+  perl-XML-RegExp-0.03-1
+  perl-libxml-perl-0.08-1
+
+Build requirements:
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/XML-DOM/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/T/TJ/TJMATHER/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-XML-DOM-1.44-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-XML-DOM-1.44-X.cygport all
+
+This will create:
+  /usr/src/perl-XML-DOM-1.44-X-src.tar.bz2
+  /usr/src/perl-XML-DOM-1.44-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM.pm
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/AttDef.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/AttlistDecl.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Attr.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/CDATASection.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/CharacterData.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Comment.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/DOMException.pm
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/DOMImplementation.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Document.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/DocumentFragment.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/DocumentType.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Element.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/ElementDecl.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Entity.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/EntityReference.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/NamedNodeMap.pm
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/NamedNodeMap.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Node.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/NodeList.pm
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/NodeList.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Notation.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Parser.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/PerlSAX.pm
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/ProcessingInstruction.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/Text.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/DOM/XMLDecl.pod
+  /usr/lib/perl5/vendor_perl/5.10/XML/Handler/BuildDOM.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/XML-DOM/.packlist
+  /usr/share/doc/perl-XML-DOM-1.44/BUGS
+  /usr/share/doc/perl-XML-DOM-1.44/Changes
+  /usr/share/doc/perl-XML-DOM-1.44/README
+  /usr/share/man/man3/XML.DOM.3pm.gz
+  /usr/share/man/man3/XML.DOM.AttDef.3pm.gz
+  /usr/share/man/man3/XML.DOM.AttlistDecl.3pm.gz
+  /usr/share/man/man3/XML.DOM.Attr.3pm.gz
+  /usr/share/man/man3/XML.DOM.CDATASection.3pm.gz
+  /usr/share/man/man3/XML.DOM.CharacterData.3pm.gz
+  /usr/share/man/man3/XML.DOM.Comment.3pm.gz
+  /usr/share/man/man3/XML.DOM.DOMImplementation.3pm.gz
+  /usr/share/man/man3/XML.DOM.Document.3pm.gz
+  /usr/share/man/man3/XML.DOM.DocumentFragment.3pm.gz
+  /usr/share/man/man3/XML.DOM.DocumentType.3pm.gz
+  /usr/share/man/man3/XML.DOM.Element.3pm.gz
+  /usr/share/man/man3/XML.DOM.ElementDecl.3pm.gz
+  /usr/share/man/man3/XML.DOM.Entity.3pm.gz
+  /usr/share/man/man3/XML.DOM.EntityReference.3pm.gz
+  /usr/share/man/man3/XML.DOM.NamedNodeMap.3pm.gz
+  /usr/share/man/man3/XML.DOM.Node.3pm.gz
+  /usr/share/man/man3/XML.DOM.NodeList.3pm.gz
+  /usr/share/man/man3/XML.DOM.Notation.3pm.gz
+  /usr/share/man/man3/XML.DOM.Parser.3pm.gz
+  /usr/share/man/man3/XML.DOM.PerlSAX.3pm.gz
+  /usr/share/man/man3/XML.DOM.ProcessingInstruction.3pm.gz
+  /usr/share/man/man3/XML.DOM.Text.3pm.gz
+  /usr/share/man/man3/XML.DOM.XMLDecl.3pm.gz
+  /usr/share/man/man3/XML.Handler.BuildDOM.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.44-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
